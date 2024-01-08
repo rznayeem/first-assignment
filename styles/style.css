@@ -240,9 +240,7 @@ header {
   line-height: 32px;
 }
 
-.sbs {
-  margin-left: 0;
-}
+/* newsletter section styles */
 
 .newsletter {
   border-radius: 16px;
@@ -296,4 +294,67 @@ input[type="submit"] {
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
+}
+
+/* footer section styles */
+
+footer {
+  margin-top: 120px;
+  padding: 120px;
+  background: #070211;
+  /* color: #FFF; */
+}
+
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid rgba(255, 255, 255, 0.15) 1px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  padding-bottom: 50px;
+}
+
+.footer-contaact span {
+  display: block;
+}
+
+.footer-contaact span img {
+  margin-right: 16px;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: center;
+  border-bottom: solid rgba(255, 255, 255, 0.15) 1px;
+  padding: 48px 0 48px 0;
+}
+
+.social-media a {
+  margin-right: 24px;
+}
+
+.row-3 {
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 50px;
+}
+
+.unsubscribe {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  color: #FFF;
+  cursor: pointer;
+
 }
