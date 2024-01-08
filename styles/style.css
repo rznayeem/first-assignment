@@ -31,7 +31,9 @@ header {
   text-align: center;
   font-size: 32px;
   padding-top: 177px;
+  padding-bottom: 16px;
   font-family: Merriweather;
+  font-weight: 400;
 }
 
 .banner-title {
@@ -39,6 +41,8 @@ header {
   font-size: 72px;
   padding-bottom: 177px;
   font-family: Merriweather;
+  font-weight: 900;
+  line-height: 95px;
 
 }
 
@@ -186,6 +190,16 @@ header {
   cursor: pointer;
 }
 
+.schedule-btn:hover {
+  padding: 14px 30px;
+  color: #F00;
+  background: linear-gradient(90deg, #FDFCFB 0%, #E2D1C3 100%);
+  border: 2px solid #F00;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+
 
 
 /* portfolio section styles */
@@ -285,7 +299,6 @@ input[type="submit"] {
   height: 72px;
   border-radius: 0px 50px 50px 0px;
   background: #F00;
-  padding-left: -20px;
   margin-left: -5px;
   border: none;
   outline: none;
@@ -293,6 +306,20 @@ input[type="submit"] {
   font-family: Inter;
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  width: 210px;
+  height: 72px;
+  border-radius: 0px 50px 50px 0px;
+  background: linear-gradient(90deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  margin-left: -5px;
+  color: #F00;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid #F00;
   cursor: pointer;
 }
 
@@ -357,4 +384,8 @@ footer {
   color: #FFF;
   cursor: pointer;
 
+}
+
+.unsubscribe:hover {
+  color: #F00;
 }
