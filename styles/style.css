@@ -48,13 +48,13 @@ header {
 
 /* main section styles */
 
-/* catagories */
-.catagories {
+/* categories */
+.categories {
 
   align-items: center;
 }
 
-.offer-catagories {
+.offer-categories {
   color: #F00;
   text-align: center;
   font-family: Inter, ;
@@ -72,7 +72,7 @@ header {
   font-weight: 500;
 }
 
-.catagories-heading {
+.categories-heading {
   color: #070211;
   text-align: center;
   font-family: Inter;
@@ -82,7 +82,7 @@ header {
   margin-bottom: 48px;
 }
 
-.catagories-image {
+.categories-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -200,7 +200,123 @@ header {
 
 }
 
+/* best offer section */
 
+.best-offer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 1320px;
+  margin: auto;
+}
+
+.best-offer-section .left h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.best-offer-section .left h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 22px;
+}
+
+.best-offer-section .left p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 22px;
+}
+
+.best-offer-section .middle img {
+  width: 364.844px;
+  height: 364.844px;
+  border: 40px solid transparent;
+  border-radius: 463px;
+  outline: 15px solid #f00;
+}
+
+.best-offer-section .right h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.best-offer-section .right h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.best-offer-section .right p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 20px;
+}
+
+.best-offer-section .right img {
+  width: 140px;
+  height: 140px;
+  margin-top: 40px;
+}
+
+/* sale section  */
+
+.sale-container {
+  width: 1320px;
+  margin: auto;
+  margin-top: 120px;
+}
+
+.sale-container p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 28px;
+}
+
+.sale-container h2 {
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-top: 15px;
+}
+
+.sale-container h2 span {
+  color: #f00;
+}
+
+.sale-container h5 {
+  color: #070211;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.sale-container .sale-banner img {
+  width: 1320px;
+  margin-top: 64px;
+}
 
 /* portfolio section styles */
 .portfolio {
